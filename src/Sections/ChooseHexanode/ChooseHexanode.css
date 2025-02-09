@@ -1,0 +1,289 @@
+.main-choose-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+  width: 88%;
+}
+
+.choose-container {
+  padding-bottom: 30px;
+  padding-top: 60px;
+  background-color: #f7f7f7;
+}
+@media (min-width: 768px) {
+  .choose-container {
+    padding-bottom: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .choose-container {
+    padding-top: 120px;
+  }
+}
+
+.choose-position {
+  position: absolute;
+  top: -65px;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  margin: 0;
+}
+@media (min-width: 1280px) {
+  .choose-position {
+    top: -74px;
+  }
+}
+
+.choose-text {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #020a19;
+  padding-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .choose-text {
+    font-size: 40px;
+    line-height: 1.3;
+    padding-bottom: 20px;
+  }
+}
+
+.maindiv {
+  max-width: 280px;            /* Sets the padding top to 40px */
+  padding-bottom: 80px;         /* Sets the padding bottom to 80px */
+  position: relative;           /* Sets the position to relative */
+  margin-left: auto;            /* Centers the maindiv horizontally */
+  margin-right: auto;           /* Centers the maindiv horizontally */
+}
+
+/* For small screens (sm breakpoint) */
+@media (min-width: 640px) {      /* Tailwind's sm breakpoint (min-width: 640px) */
+  .maindiv {
+    max-width: 400px;           /* Sets the max-width to 400px on small screens */
+  }
+}
+
+/* For medium screens (md breakpoint) */
+@media (min-width: 768px) {      /* Tailwind's md breakpoint (min-width: 768px) */
+  .maindiv {
+    max-width: 960px;           /* Sets the max-width to 960px on medium screens */
+  }
+}
+
+/* For large screens (lg breakpoint) */
+@media (min-width: 1024px) {    /* Tailwind's lg breakpoint (min-width: 1024px) */
+  .maindiv {
+    max-width: 780px;           /* Sets the max-width to 780px on large screens */
+    padding-bottom: 0;          /* Removes bottom padding on large screens */
+  }
+}
+
+/* For extra large screens (xl breakpoint) */
+@media (min-width: 1280px) {    /* Tailwind's xl breakpoint (min-width: 1280px) */
+  .maindiv {
+    max-width: 960px;           /* Sets the max-width to 960px on extra large screens */
+  }
+}
+
+.divelement {
+  display: flex;                    /* Sets the display property to flex */
+  flex-direction: column;           /* Default: flex items in column */
+  overflow: hidden;                 /* Hides any content that overflows the container */
+  border-radius: 18px;              /* Rounds the corners with a radius of 18px */
+  position: relative;               /* Positions the paraele relative to its normal position */
+}
+
+/* For medium screens (md breakpoint) */
+@media (min-width: 768px) {         /* Tailwind's md breakpoint (min-width: 768px) */
+  .divelement {
+    flex-direction: row;            /* Changes flex direction to row on medium screens and larger */
+  }
+}
+
+.scrollelement {
+  max-height: 400px;              /* Sets the maximum height to 400px */
+  width: 280px;                   /* Sets the width to 280px */
+  height: 280px;                  /* Sets the height to 280px */
+  position: relative;             /* Positions the paraele relative to its normal position */
+  overflow: hidden;               /* Hides any content that overflows the container */
+  line-height: 0;                 /* Sets the line-height to 0 */
+}
+
+/* For small screens (sm breakpoint) */
+@media (min-width: 640px) {        /* Tailwind's sm breakpoint (min-width: 640px) */
+  .scrollelement {
+    width: 400px;                 /* Sets the width to 400px on small screens */
+    height: 400px;                /* Sets the height to 400px on small screens */
+  }
+}
+
+/* For medium screens (md breakpoint) */
+@media (min-width: 768px) {        /* Tailwind's md breakpoint (min-width: 768px) */
+  .scrollelement {
+    width: unset;                 /* Unsets the width on medium screens */
+    height: unset;                /* Unsets the height on medium screens */
+    flex-basis: 47%;              /* Sets the flex-basis to 47% on medium screens */
+    max-width: 320px;             /* Sets the maximum width to 320px on medium screens */
+  }
+}
+
+/* For large screens (lg breakpoint) */
+@media (min-width: 1024px) {      /* Tailwind's lg breakpoint (min-width: 1024px) */
+  .scrollelement {
+    width: 320px;                 /* Sets the width to 320px on large screens */
+    height: 320px;                /* Sets the height to 320px on large screens */
+  }
+}
+
+.infoboxelement {
+  max-width: 640px;              /* Sets the maximum width to 640px */
+  background-color: #ffffff;    /* Sets the background color to white */
+  display: flex;                 /* Makes the paraele a flex container */
+  justify-content: center;       /* Centers the items horizontally */
+  flex-direction: column;        /* Arranges items in a column */
+  flex-grow: 1;                  /* Allows the paraele to grow and take available space */
+}
+
+/* For medium screens (md breakpoint) */
+@media (min-width: 768px) {       /* Tailwind's md breakpoint (min-width: 768px) */
+  .infoboxelement {
+    min-height: 310px;            /* Sets the minimum height to 310px on medium screens and above */
+  }
+}
+
+.imgelement {
+  position: absolute;    /* Positions the paraele absolutely within its nearest positioned ancestor */
+  height: 100%;          /* Sets the height to 100% of the parent paraele */
+  width: 100%;           /* Sets the width to 100% of the parent paraele */
+  left: 0;               /* Aligns the paraele to the left of the parent */
+  top: 0;                /* Aligns the paraele to the top of the parent */
+  right: 0;              /* Aligns the paraele to the right of the parent */
+  bottom: 0;             /* Aligns the paraele to the bottom of the parent */
+  color: transparent;    /* Makes the text color transparent */
+}
+
+.deselement {          /* Adds padding to the right side of the paraele */
+  padding-top: 20px;              /* Adds padding to the top of the paraele */
+  padding-bottom: 25px;          /* Adds padding to the bottom of the paraele */
+}
+/* For medium screens (md breakpoint) */
+@media (min-width: 768px) {       /* Tailwind's md breakpoint (min-width: 768px) */
+  .deselement {
+    max-height: 125px;            /* Sets the max height to 125px on medium screens and larger */
+    overflow: scroll;             /* Enables scroll when content overflows on medium screens */       /* Sets the right padding to 55px on medium screens */
+    padding-top: 0;               /* Removes the top padding on medium screens */
+    padding-bottom: 0;            /* Removes the bottom padding on medium screens */
+    margin-top: 40px;             /* Sets the top margin to 40px on medium screens */
+    margin-bottom: 20px;          /* Sets the bottom margin to 20px on medium screens */
+  }
+}
+
+.infoelement {           /* Adds padding to the right side of the paraele */
+  padding-top: 20px;              /* Adds padding to the top of the paraele */
+  padding-bottom: 20px;           /* Adds padding to the bottom of the paraele */
+  display: flex;                  /* Makes the paraele a flex container */
+  flex-direction: column;         /* Arranges items in a column */
+  justify-content: center;        /* Centers the items vertically in the container */
+  align-items: center;            /* Centers the items horizontally in the container */
+}
+/* For medium screens (md breakpoint) */
+@media (min-width: 768px) {       /* Tailwind's md breakpoint (min-width: 768px) */
+  .infoelement {         /* Adds 55px padding to the right side on medium screens and larger */
+    padding-top: 0;               /* Removes the top padding on medium screens and larger */
+    padding-bottom: 0;            /* Removes the bottom padding on medium screens and larger */
+    min-height: 120px;            /* Sets the minimum height to 120px on medium screens and larger */
+  }
+}
+
+.paraele {
+  text-align: center;               /* Aligns text to the center */
+  width: 100%;                      /* Sets the width to 100% */
+  margin-left: auto;                /* Centers the paraele horizontally */
+  margin-right: auto;               /* Centers the paraele horizontally */
+  font-size: 14px;                  /* Sets the font size to 14px */
+  line-height: 11px;                /* Sets the line height to 11px */
+  padding-bottom: 5px;              /* Adds 5px of padding to the bottom */
+  color: #020a19;                   /* Sets the text color to #020a19 */
+  font-weight: bold;                /* Sets the font weight to bold */
+}
+/* For medium screens (md breakpoint) */
+@media (min-width: 768px) {         /* Tailwind's md breakpoint (min-width: 768px) */
+  .paraele {
+    text-align: left;               /* Aligns text to the left on medium screens and larger */
+  }
+}
+/* For small screens (sm breakpoint) */
+@media (min-width: 640px) {         /* Tailwind's sm breakpoint (min-width: 640px) */
+  .paraele {
+    font-size: 20px;                /* Sets the font size to 20px on small screens and larger */
+    line-height: 33px;              /* Sets the line height to 33px on small screens and larger */
+    padding-bottom: 0;              /* Removes the bottom padding on small screens and larger */
+  }
+}
+
+.subinfotext {
+  text-align: center;               /* Aligns text to the center by default */
+  width: 100%;                      /* Sets the width to 100% */
+  margin-left: auto;                /* Centers the subinfotext horizontally */
+  margin-right: auto;               /* Centers the subinfotext horizontally */
+  font-size: 12px;                  /* Sets the font size to 12px */
+  line-height: 16px;                /* Sets the line height to 16px */
+  color: #020a19;                   /* Sets the text color to #020a19 */
+  font-weight: normal;              /* Sets the font weight to normal */
+  max-width: 294px;                 /* Sets the maximum width to 294px */
+  opacity: 0.7;                     /* Sets the opacity to 70% */
+}
+/* For medium screens (md breakpoint) */
+@media (min-width: 768px) {         /* Tailwind's md breakpoint (min-width: 768px) */
+  .subinfotext {
+    text-align: left;               /* Aligns text to the left on medium screens and larger */
+    margin-right: auto;             /* Aligns subinfotext to the left by removing right margin */
+    margin-left: unset;             /* Unsets the left margin on medium screens and larger */
+  }
+}
+/* For small screens (sm breakpoint) */
+@media (min-width: 640px) {         /* Tailwind's sm breakpoint (min-width: 640px) */
+  .subinfotext {
+    font-size: 14px;                /* Sets the font size to 14px on small screens and larger */
+    line-height: 18px;              /* Sets the line height to 18px on small screens and larger */
+  }
+}
+
+.destextformate {
+  font-size: 16px;                   /* Sets the font size to 16px */
+  line-height: 24px;                 /* Sets the line height to 24px */
+  color: #020a19;                    /* Sets the text color to #020a19 */
+  font-weight: bold;                 /* Sets the font weight to bold */
+  text-align: center;                /* Aligns the text to the center */
+  -webkit-font-smoothing: antialiased; /* Applies antialiasing to the font for smoother text rendering */
+  -moz-osx-font-smoothing: grayscale;  /* Applies antialiasing for smoother text rendering in Firefox */
+}
+
+/* For small screens (sm breakpoint) */
+@media (min-width: 640px) {           /* Tailwind's sm breakpoint (min-width: 640px) */
+  .destextformate {
+    font-size: 20px;                  /* Sets the font size to 20px on small screens and larger */
+    line-height: 32px;                /* Sets the line height to 32px on small screens and larger */
+  }
+}
+
+/* For medium screens (md breakpoint) */
+@media (min-width: 768px) {           /* Tailwind's md breakpoint (min-width: 768px) */
+  .destextformate {
+    font-size: 24px;                  /* Sets the font size to 24px on medium screens and larger */
+    text-align: left;                 /* Aligns the text to the left on medium screens and larger */
+  }
+}
+
+
+
+
+
+
+

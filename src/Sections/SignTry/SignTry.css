@@ -1,0 +1,22 @@
+.cont-element {
+  background-color: #020a19; /* Dark background */
+  display: flex; /* Flexbox layout */
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  padding-top: 50px; /* Padding on top */
+  padding-bottom: 50px; /* Padding on bottom */
+}
+@media (min-width: 768px) {
+  .cont-element {
+    height: 330px; /* Height on medium screens and larger */
+    padding-top: 0; /* No top padding on medium screens */
+    padding-bottom: 0; /* No bottom padding on medium screens */
+  }
+}
+
+.signtry-div {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+    width: 88%;
+  }

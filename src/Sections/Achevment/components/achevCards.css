@@ -1,0 +1,91 @@
+.banner-accolades-wrap {
+  display: flex;
+  flex: 0 0 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .banner-accolades-wrap {
+    flex: 0 0 27%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner-accolades-wrap {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .banner-accolades-wrap {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+
+.banner-accolades-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-accolades-img-wrap {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.banner-accolades-img {
+  display: flex;
+  align-items: center;
+  min-width: 82px;
+  max-width: 156px;
+  max-height: 25px;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-accolades-img-element {
+  object-fit: cover;
+  width: 100%;
+  max-width: 100%;
+  height: 25px;
+}
+
+.banner-accolades-text {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .banner-accolades-text {
+    text-align: left;
+  }
+}
+
+.split-class {
+  width: 107px; 
+  background-color: rgba(255, 255, 255, 0.2); 
+  flex-basis: 1px; 
+}
+
+@media (min-width: 768px) {
+  .split-class {
+    width: 1px;
+  }
+}

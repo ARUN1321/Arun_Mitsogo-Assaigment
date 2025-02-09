@@ -1,0 +1,38 @@
+.button-class {
+  max-width: 100%;
+  margin-left: auto;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+@media (min-width: 1280px) {
+  .button-class {
+    max-width: unset;
+    width: unset;
+    margin-left: unset;
+    background-color: transparent;
+    padding: unset;
+  }
+}
+
+.your-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  line-height: 24px;
+  color: #fff;
+  max-width: fit-content;
+  background-color: #bb022a;
+  text-transform: uppercase;
+  white-space: nowrap;
+  min-width: unset;
+  min-height: unset;
+  border-radius: 3px;
+  padding: 10px 26px;
+  margin: 0;
+  transition: all 0.2s linear;
+  position: relative;
+  z-index: 1;
+}

@@ -1,0 +1,121 @@
+.container {
+  flex-direction: row;
+  width: 88%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-class {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 1280px) {
+  .my-class {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.font-size {
+  color: #ffffff;
+  font-size: 34px;
+  line-height: 44px;
+  text-align: center;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media (min-width: 1024px) {
+  .font-size {
+    font-size: 42px;
+    line-height: 53px;
+  }
+}
+@media (min-width: 1280px) {
+  .font-size {
+    text-align: left;
+  }
+}
+
+.main-container {
+  padding: 90px 0 30px 0;
+  background-color: #020a19;
+}
+@media (min-width: 1280px) {
+  .main-container {
+    padding: 50px 0 0 0;
+  }
+}
+
+.container-get-start {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%; /* max-w-full */
+  order: 2;
+}
+
+@media (min-width: 640px) {
+  /* sm breakpoint */
+  .container-get-start {
+    max-width: 550px; /* sm:max-w-[550px] */
+  }
+}
+
+@media (min-width: 1280px) {
+  /* xl breakpoint */
+  .container-get-start {
+    max-width: 498px; /* xl:max-w-[498px] */
+    order: 1; /* xl:order-1 */
+  }
+}
+
+.img-res {
+  width: 100%; /* w-full */
+  max-width: 100%; /* max-w-full */
+  order: 1; /* order-1 */
+}
+@media (min-width: 768px) {
+  /* md breakpoint */
+  .img-res {
+    max-width: 597px; /* md:max-w-[597px] */
+  }
+}
+@media (min-width: 1280px) {
+  /* xl breakpoint */
+  .img-res {
+    order: 2; /* xl:order-2 */
+  }
+}
+
+.img-class-res {
+  width: 100%; /* w-full */
+  max-width: 100%; /* max-w-full */
+}
+@media (min-width: 768px) {
+  /* md breakpoint */
+  .img-class-res {
+    max-width: 597px; /* md:max-w-[597px] */
+  }
+}
+@media (max-width: 420px) {
+  /* max-[420px] */
+  .img-class-res {
+    max-height: 258px; /* max-[420px]:max-h-[258px] */
+    margin-bottom: 40px; /* max-[420px]:mb-[40px] */
+  }
+}
+
+.img {
+  width: 100%; /* w-full */
+  height: 100%; /* h-full */
+  object-fit: cover; /* object-cover */
+}
+@media (max-width: 420px) {
+  /* max-[420px] */
+  .img {
+    height: 258px; /* max-[420px]:h-[258px] */
+  }
+}

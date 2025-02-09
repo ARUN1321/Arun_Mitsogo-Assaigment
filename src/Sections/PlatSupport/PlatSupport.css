@@ -1,0 +1,104 @@
+.plat-cont {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+@media (min-width: 1024px) {
+  .plat-cont {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+.plat-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.plat-div {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+  width: 88%;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 40px; /* default margin */
+  color: #020a19;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700; /* bold */
+  -webkit-font-smoothing: antialiased; /* for improved text clarity */
+  -moz-osx-font-smoothing: grayscale;
+}
+@media (min-width: 640px) {
+  .text {
+    font-size: 40px;
+    line-height: 1.3;
+  }
+}
+@media (min-width: 768px) {
+  .text {
+    margin-bottom: 60px;
+  }
+}
+
+.element {
+  display: block;
+  flex-shrink: 0;
+  flex-basis: 50%; /* Basis for smaller screens */
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+  .element {
+    flex-basis: 47%; /* Basis for medium screens */
+  }
+}
+@media (min-width: 1024px) {
+  .element {
+    flex-basis: calc(100% / 6); /* Basis for large screens */
+  }
+}
+@media (max-width: 640px) {
+  .element {
+    margin-bottom: 15px; /* Smaller margin on small screens */
+  }
+}
+
+.icon-element {
+  display: flex;
+  align-items: center; /* Vertical centering */
+  justify-content: center; /* Horizontal centering */
+  flex-shrink: 0; /* Prevent shrinking */
+  position: relative; /* Set position relative */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 150px; /* Default max-width */
+  height: 60px; /* Default height */
+  border-radius: 10px; /* Rounded corners */
+  transition: transform 0.3s ease; /* Example transition (if needed for the custom class) */
+}
+@media (min-width: 640px) {
+  .icon-element {
+    max-width: 190px; /* Change max-width on small screens */
+    height: 72px; /* Change height on small screens */
+  }
+}
+.platformLogoList_translate-transition-kit__A2GmB {
+  transition: transform 0.3s ease;
+}
+
+.img {
+    display: block; /* Block-level element */
+    width: 100%; /* Full width of the parent container */
+    object-fit: contain; /* Ensures the content maintains its aspect ratio while fitting within the container */
+  }
+  
