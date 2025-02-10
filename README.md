@@ -1,47 +1,51 @@
-# Getting Started with Create React App
+# Hexnode Kiosk Solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hexnode Kiosk is a Unified Endpoint Management (UEM) solution designed to turn your devices into secure, easy-to-manage kiosks. With multiple kiosk modes like Single App, Multi-App, Web-based, and Digital Signages, Hexnode allows businesses to control and manage their devices effortlessly.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Single-App Kiosk Mode**: Restrict the device to a single app for enhanced control and customized usage.
+- **Multi-App Kiosk Mode**: Allow multiple apps while still ensuring a controlled environment.
+- **Web-based Kiosk Mode**: Enable browser-based kiosk setups.
+- **Digital Signage**: Deploy devices for digital signage with ease.
+- **ASAM Kiosk Mode**: Special mode to address unique use cases.
 
-### `npm --force install`
-### `npm start`
+## Key Benefits
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Easy Deployment**: Devices can be provisioned and deployed right out of the box, with Hexnode’s app pre-installed.
+- **Custom Interface**: Personalize the device’s interface to maximize brand visibility and user engagement.
+- **Remote Management**: Control devices remotely, ensuring security and compliance even in the event of device loss or theft.
+- **App Management**: Deploy, update, and manage apps on kiosk devices silently for minimal disruption.
+- **Secure Data**: Protect data with advanced security measures while the device is in kiosk mode.
+- **End-User Friendly**: Create an intuitive interface that only shows the essential settings to end-users.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Why Choose Hexnode?
 
-### `npm test`
+- **Seamless Kiosk Management**: Quickly manage and configure your kiosk devices, whether they're Android, iOS, or Windows-based.
+- **Multiple Device Support**: Works across a variety of platforms including Android, iOS, Windows, Android TV, Apple TV, and Amazon Fire.
+- **Trusted by Leading Brands**: Companies like Costco, Hilton, Merck, and Marriott rely on Hexnode for their kiosk management needs.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get started with Hexnode Kiosk, sign up for a [free 14-day trial](https://www.hexnode.com/solutions/hexnode-kiosk/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Supported Platforms
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Android**
+- **iOS**
+- **Windows**
+- **Android TV**
+- **Apple TV**
+- **Amazon Fire**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Testimonials
 
-### `npm run eject`
+> "Hexnode is of great value. Works great with Android and iOS!"  
+> — Justin Modrak, Technology Coordinator, East Troy Community School District
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+> "Most complete MDM solution I found, and I tested many of them, including major names."  
+> — Dalibor Kruljac, KAMELEYA LTD
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+For more information, visit [Hexnode Kiosk Solution](https://www.hexnode.com/solutions/hexnode-kiosk/).
