@@ -19,7 +19,9 @@ First, clone the repository to your local machine:
 
 ```bash
 gh repo clone ARUN1321/Arun_Mitsogo-Assaigment
-
+```
+### 1. install dependency and run the application
+```bash
 npm install
 npm start
 ```
