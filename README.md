@@ -13,14 +13,16 @@ Before you begin, ensure you have the following installed:
 
 To get started with the project, follow these steps:
 
-### 1. Clone the Repository
+### 1. connect to internet before running the website as there are no preloaded assets
+
+### 2. Clone the Repository
 
 First, clone the repository to your local machine:
 
 ```bash
 gh repo clone ARUN1321/Arun_Mitsogo-Assaigment
 ```
-### 1. install dependency and run the application
+### 3. install dependency and run the application
 ```bash
 npm install
 npm start
