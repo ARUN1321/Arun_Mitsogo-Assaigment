@@ -13,7 +13,7 @@ Before you begin, ensure you have the following installed:
 
 To get started with the project, follow these steps:
 
-### 1. connect to internet before running the website as there are no preloaded assets
+### 1. Connect to internet before running the website as there are no preloaded assets
 
 ### 2. Clone the Repository
 
